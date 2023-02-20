@@ -50,7 +50,7 @@ header {
   color: var(--black);
 }
 .banner-section {
-  background-image: url(placeholder_img/photo-1499856871958-5b9627545d1a.avif);
+  background-image: url(billeder/baggrund.webp);
   background-position: center;
   height: 500px;
   overflow: hidden;
