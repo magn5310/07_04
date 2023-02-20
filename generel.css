@@ -18,6 +18,18 @@ header {
   box-shadow: 2px 2px 15px var(--black);
   background-color: blue;
 }
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  place-content: center;
+}
+ul {
+  display: flex;
+  justify-content: end;
+}
+li a {
+  color: var(--white);
+}
 .container {
   width: 1140px;
   max-width: 100%;
@@ -31,25 +43,22 @@ header {
 }
 .col-div-6 {
   width: 50%;
-  float: left;
 }
 .logo {
   font-weight: bold;
   font-size: 25px;
-  color: var(--black);
+  color: var(--white);
   text-decoration: none;
 }
-.nav {
-  float: right;
-}
+
 .nav li {
   list-style: none;
-  float: left;
+
   padding: 3px 20px;
 }
 .nav li a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--white);
 }
 .banner-section {
   height: 31.25rem;
