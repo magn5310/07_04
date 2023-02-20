@@ -155,7 +155,6 @@ header {
 /*****/
 
 .top-section {
-  background-color: red;
   background-position: center;
   overflow: hidden;
 }
@@ -170,6 +169,7 @@ header {
 #grid1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 5%;
 }
 
 .grid-text {
