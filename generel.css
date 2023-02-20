@@ -1,6 +1,7 @@
 :root {
   --main: #d3ae86;
   --darksand: #b89269;
+  --darksand-opa: #69543dc0;
   --black: #060606;
   --white: #ffffff;
 }
@@ -51,9 +52,10 @@ header {
   color: var(--black);
 }
 .banner-section {
+  box-shadow: inset 0 0 0 1000px var(--darksand-opa);
   background-image: url(billeder/baggrund.webp);
-  background-position: center;
-  height: 500px;
+  background-position: center 65%;
+  height: 31.25rem;
   overflow: hidden;
 }
 
