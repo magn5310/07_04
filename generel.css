@@ -156,14 +156,13 @@ header {
 /*****/
 
 .top-section {
-  background-color: red;
   background-position: center;
   overflow: hidden;
 }
 
 .top-h1 {
   text-align: center;
-  padding: 5%;
+  padding: 3%;
   font-size: 35px;
   text-transform: uppercase;
 }
@@ -171,6 +170,7 @@ header {
 #grid1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 3%;
 }
 
 .grid-text {
