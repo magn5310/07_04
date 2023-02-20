@@ -118,3 +118,49 @@ header {
   padding: 50px;
   text-align: center;
 }
+
+/*****/
+
+.top-section {
+  background-color: red;
+  background-position: center;
+  overflow: hidden;
+}
+
+.top-h1 {
+  text-align: center;
+  padding: 5%;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+#grid1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: green;
+}
+
+.grid-text {
+  margin: auto;
+  padding: 5%;
+}
+
+.grid-img {
+  margin: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.read-more {
+  margin: auto;
+  display: block;
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 2%;
+  border-radius: 13px;
+  border: grey 1px solid;
+  font-size: 20px;
+  margin-top: 5%;
+}
