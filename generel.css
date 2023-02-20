@@ -64,6 +64,30 @@ header {
   overflow: hidden;
 }
 
+.width {
+  min-height: 100vh;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.line {
+  width: 100%;
+  margin-top: 15px;
+  border: none;
+  height: 1px;
+  background: #a8a8a8;
+}
+#grid1-1-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 2;
+  margin-top: -7rem;
+}
+.grid-text-view {
+  margin-top: auto;
+  margin-bottom: -1rem;
+  padding: 5%;
+}
+
 .heading {
   color: var(--white);
   font-size: 40px;
@@ -144,7 +168,6 @@ header {
 #grid1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: green;
 }
 
 .grid-text {
