@@ -180,7 +180,7 @@ li a {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   #grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -188,7 +188,7 @@ li a {
   }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 699px) {
   #grid1-1 {
     margin: 3%;
   }
