@@ -4,6 +4,7 @@
   --darksand-opa: #69543dc0;
   --black: #060606;
   --white: #ffffff;
+  --background: #f6f1ed;
 }
 * {
   margin: 0px;
@@ -205,4 +206,8 @@ li a {
   border: grey 1px solid;
   font-size: 20px;
   margin-top: 5%;
+}
+
+.destinations {
+  background-color: var(--background);
 }
