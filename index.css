@@ -4,10 +4,18 @@ header {
   position: sticky;
 }
 .review-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-image: url(billeder/review-banner.webp);
   background-position: center 70%;
   box-shadow: inset 0 0 0 1000px var(--darksand-opa);
-  height: 500px;
+  height: 600px;
+  place-items: start center;
+}
+.review-h2 {
+  font-weight: 100;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .container3 {
