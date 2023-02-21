@@ -248,5 +248,5 @@ a {
 }
 
 .destinations h1 {
-  background-color: var(--text);
+  color: var(--text);
 }
