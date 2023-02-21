@@ -4,8 +4,10 @@
   --darksand-opa: #69543dc0;
   --black: #060606;
   --white: #ffffff;
+
   --background: #f6f1ed;
   --text: #683c25;
+  --header: #825f4e;
 }
 * {
   margin: 0px;
@@ -18,7 +20,7 @@
 header {
   padding: 20px 0px;
   box-shadow: 2px 2px 15px var(--black);
-  background-color: blue;
+  background-color: var(--header);
 }
 .container3 {
   display: flex;
