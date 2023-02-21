@@ -180,10 +180,18 @@ li a {
   text-transform: uppercase;
 }
 
-#grid1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 3%;
+@media screen and (min-width: 600px) {
+  #grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #grid1-1 {
+    margin: 3%;
+  }
 }
 
 .grid-text {
