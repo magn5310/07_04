@@ -246,3 +246,7 @@ a {
 .destinations {
   background-color: var(--background);
 }
+
+.destinations h1 {
+  background-color: var(--text);
+}
