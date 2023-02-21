@@ -206,3 +206,14 @@ li a {
   font-size: 20px;
   margin-top: 5%;
 }
+
+h1,
+h2 {
+  font-family: libre baskerville;
+}
+
+p,
+h3,
+a {
+  font-family: montserrat;
+}
