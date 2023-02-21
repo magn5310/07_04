@@ -4,6 +4,9 @@ header {
   position: sticky;
 }
 
+.container3 {
+  margin: auto;
+}
 .col-div-6 {
   margin: auto;
 }
