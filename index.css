@@ -10,7 +10,23 @@ header {
 .col-div-6 {
   margin: auto;
 }
-
+.banner-section .container * {
+  margin-bottom: 2rem;
+}
 .logo img {
   width: 10rem;
+}
+.welcome {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.h31 {
+  font-family: libre baskerville;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.heroh1 {
+  font-size: 7rem;
+  font-weight: 100;
 }
