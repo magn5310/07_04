@@ -4,6 +4,10 @@ header {
   position: sticky;
 }
 
+.col-div-6 {
+  margin: auto;
+}
+
 .logo img {
-  width: 8rem;
+  width: 10rem;
 }
