@@ -107,6 +107,11 @@ li a {
   padding: 5%;
 }
 
+.grid-text-view p,
+.grid-text-view h1 {
+  color: var(--text);
+}
+
 .heading {
   color: var(--white);
   font-size: 40px;
@@ -206,6 +211,7 @@ li a {
 .grid-text h1 {
   color: var(--text);
 }
+
 .grid-img {
   margin: auto;
   max-width: 100%;
