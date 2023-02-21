@@ -14,19 +14,44 @@ header {
 .presponse {
   font-weight: bold;
 }
+
+.outercon {
+  overflow: hidden;
+  width: 70rem;
+  margin: auto;
+}
+.outeroutercon {
+  display: flex;
+  width: 75rem;
+  margin: auto;
+}
+.arrow_prev,
+.arrow_next {
+  margin: auto;
+  color: red;
+  transform: translateY(-50%);
+}
+#karusel {
+  display: flex;
+  overflow-x: scroll;
+}
+
 .review-h2 {
   font-weight: 100;
-  font-size: 3rem;
-  text-align: center;
+  font-size: 3.8rem;
 }
 .review-box {
   width: 45ch;
 }
 .review-con {
   display: flex;
-  gap: 10rem;
-}
 
+  gap: 10rem;
+  margin-bottom: 5rem;
+}
+.roundabout {
+  display: flex;
+}
 .container3 {
   margin: auto;
 }

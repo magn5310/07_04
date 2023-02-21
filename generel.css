@@ -1,7 +1,7 @@
 :root {
   --main: #d3ae86;
   --darksand: #b89269;
-  --darksand-opa: #7a61477a;
+  --darksand-opa: #886d518e;
   --black: #060606;
   --white: #ffffff;
 
@@ -159,8 +159,8 @@ li a {
   color: var(--black);
 }
 .box-2 {
-  width: 28.5%;
-  float: left;
+  width: 20rem;
+
   margin: 25px;
 }
 .box-2:hover {
