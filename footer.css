@@ -1,5 +1,22 @@
 .grid1-1-1 {
-  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #5a3a26;
+  justify-content: center;
+  padding: 3%;
+}
+
+.footer-box {
+  padding: 5%;
+  color: white;
+  border: white 1px solid;
+  margin: 5%;
+}
+
+.footer-box p {
+  margin-top: 5%;
+}
+
+.footer-box h1 {
+  font-weight: lighter;
 }
