@@ -203,6 +203,15 @@ a {
 .h2view {
   color: var(--text);
 }
+.singleflex {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.singleflex * {
+  place-content: center;
+  text-align: center;
+}
 @media screen and (min-width: 700px) {
   #grid1-1 {
     display: grid;
@@ -253,8 +262,9 @@ a {
     background-position: center 65%;
   }
   .singleflex {
-    display: flex;
     margin-top: 15rem;
+    flex-direction: row;
+    gap: 2rem;
   }
 
   .singleflex * {
@@ -317,5 +327,22 @@ a {
 @media screen and (max-width: 699px) {
   #grid1-1 {
     margin: 3%;
+  }
+  .singleflex {
+    margin-block: 5rem;
+  }
+  #grid1-1-view * {
+    display: grid;
+    margin-block: 0.6rem;
+  }
+  .grid-text-view {
+    width: 90%;
+  }
+  .viewimg {
+    width: 90%;
+    place-self: center;
+  }
+  ul {
+    margin-right: 0.5rem;
   }
 }
