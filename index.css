@@ -1,20 +1,20 @@
+.review-con {
+  display: flex;
+  flex-direction: column;
+}
+.frontbanner {
+  box-shadow: inset 0 0 0 1000px var(--darksand-opa);
+  background-image: url(billeder/baggrundstor.webp);
+  background-position: center 65%;
+}
 header {
   background-color: transparent;
   box-shadow: none;
   position: sticky;
 }
-.review-section {
-  display: grid;
-  background-image: url(billeder/review-banner.webp);
-  background-position: center 70%;
-  box-shadow: inset 0 0 0 1000px var(--darksand-opa);
-  height: 600px;
-  place-items: center;
-}
 .presponse {
   font-weight: bold;
 }
-
 .outercon {
   overflow: hidden;
   width: 70rem;
@@ -43,11 +43,25 @@ header {
 .review-box {
   width: 45ch;
 }
-.review-con {
-  display: flex;
+.review-section {
+  display: grid;
+  background-image: url(billeder/review-banner.webp);
+  background-position: center 70%;
+  box-shadow: inset 0 0 0 1000px var(--darksand-opa);
+  height: 600px;
+  place-items: center;
+}
 
-  gap: 10rem;
-  margin-bottom: 5rem;
+.outercon {
+  overflow: hidden;
+  width: 15rem;
+  margin: auto;
+}
+.outeroutercon {
+  display: flex;
+  height: 5rem;
+  width: 20rem;
+  margin: auto;
 }
 .roundabout {
   display: flex;
@@ -60,29 +74,71 @@ header {
 }
 .banner-section .container * {
   margin-bottom: 2rem;
-}
-.logo img {
-  width: 10rem;
+  text-align: center;
 }
 .welcome {
+  font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: bold;
 }
 .h31 {
   font-family: libre baskerville;
   font-weight: 100;
+  font-size: 1rem;
+}
+.heroh1 {
+  font-size: 2.5rem;
+}
+.review-h2 {
   font-size: 2rem;
 }
-
-.heroh1 {
-  font-size: 7rem;
-  font-weight: 100;
+.review-con {
+  font-size: 0.8rem;
+  gap: 2rem;
 }
-
-@media (max-width: 1050px) {
-  .frontbanner {
-    box-shadow: inset 0 0 0 1000px var(--darksand-opa);
-    background-image: url(billeder/baggrundstor.webp);
-    background-position: center 65%;
+@media (min-width: 700px) {
+  .review-h2 {
+    font-weight: 100;
+    font-size: 3.8rem;
+  }
+  .welcome {
+    font-size: 1rem;
+  }
+  .review-box {
+    width: 45ch;
+    line-height: 1.6rem;
+  }
+  .review-con {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    margin-bottom: 5rem;
+  }
+  .line {
+    display: none;
+  }
+  .presponse {
+    font-size: 1rem;
+  }
+  .logo img {
+    width: 12rem;
+  }
+  .outercon {
+    overflow: hidden;
+    width: 70rem;
+    margin: auto;
+  }
+  .outeroutercon {
+    display: flex;
+    height: 30rem;
+    width: 75rem;
+    margin: auto;
+  }
+  .heroh1 {
+    font-size: 7rem;
+    font-weight: 100;
+  }
+  .h31 {
+    font-size: 2.5rem;
   }
 }

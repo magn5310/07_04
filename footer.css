@@ -34,4 +34,10 @@
     justify-content: center;
     padding: 3%;
   }
+  .footer-box h1 {
+    font-size: 1rem;
+  }
+  .footer-box p {
+    font-size: 0.7rem;
+  }
 }
