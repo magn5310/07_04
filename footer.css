@@ -21,3 +21,9 @@
   font-weight: lighter;
   color: white;
 }
+
+.footer-box img {
+  width: 30px;
+  padding-top: 2%;
+  float: left;
+}
