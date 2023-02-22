@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const urlId = `https://tema7-7d73.restdb.io/rest/hidden-gems${id}`;
+
 const id = urlParams.get("id");
 const url = `https://tema7-7d73.restdb.io/rest/hidden-gems`;
 
