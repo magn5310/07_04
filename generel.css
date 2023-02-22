@@ -84,6 +84,11 @@ li a {
   background-image: url(billeder/capristor.webp);
   background-position: center 65%;
 }
+.frontbanner-dest {
+  box-shadow: inset 0 0 0 1000px var(--darksand-opa);
+  background-image: url(billeder/deststorbanner.webp);
+  background-position: center 65%;
+}
 
 .width {
   min-height: 100vh;
