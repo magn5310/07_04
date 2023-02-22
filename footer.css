@@ -5,29 +5,33 @@
   justify-content: center;
   padding: 3%;
 }
-
 .footer-box {
   padding: 5%;
   color: white;
   border: white 1px solid;
   margin: 5%;
 }
-
 .footer-box p {
   margin-top: 5%;
 }
-
 .footer-box h1 {
   font-weight: lighter;
   color: white;
 }
-
 .footer-box img {
   width: 30px;
   padding-top: 2%;
   float: left;
 }
-
 .socials {
   padding-right: 5%;
+}
+@media (max-width: 1050px) {
+  .grid1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #5a3a26;
+    justify-content: center;
+    padding: 3%;
+  }
 }
