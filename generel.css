@@ -273,3 +273,7 @@ a {
 .destinations h1 {
   color: var(--text);
 }
+
+.container h1 {
+  color: white;
+}
