@@ -2,7 +2,7 @@ const url = "https://tema7-7d73.restdb.io/rest/hidden-gems";
 
 const options = {
   headers: {
-    "x-apikey": "63f293b7478852088da6845f",
+    "x-apikey": "63f68329478852088da68570",
   },
 };
 
