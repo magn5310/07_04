@@ -7,65 +7,56 @@
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="generel.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet" />
   </head>
-  <body>
-    <header>
-      <div class="container3">
-        <div class="col-div-6">
-          <a class="logo" href="index.html">TITEL AF SIDE</a>
-        </div>
-
-        <div class="col-div-6">
-          <ul class="nav">
-            <li><a href="index.html">Forside</a></li>
-            <li><a href="destinations.html">Destinations</a></li>
-            <li><a href="singleview.html">Singleview</a></li>
-          </ul>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </header>
-    <section class="width">
-      <!-- TEMPLATE HERFRA -->
-      <section class="banner-section-single">
-        <div class="container">
-          <h1 class="heading">TITEL TIL HELE SIDEN</h1>
-          <p class="p1">Med en lille tekst under</p>
-        </div>
-      </section>
-
-      <div id="grid1-1-view">
-        <section class="grid-text-view">
-          <h1>ABOUT THIS PLACE</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta? Optio impedit incidunt fugit ullam consectetur culpa, accusantium veritatis. Enim odit aut, eaque deleniti consequuntur dolorum itaque quidem. Tenetur optio nostrum a corrupti molestiae quasi illo assumenda itaque debitis, quaerat dicta cumque. Omnis, vel. Nostrum exercitationem totam maiores odit suscipit!</p>
-          <a class="read-more" href="#">Read more</a>
-        </section>
-        <section class="grid-img">
-          <img src="https://source.unsplash.com/random/400x400?sig=1" alt="" />
-        </section>
-      </div>
-      <br /><br />
-      <div class="line"></div>
-      <section>
-        <!--Har sat et style tag i den her container class fordi jeg ikke gad lave et helt nyt tag, kunne ligeså godt bruge container tagget og så bare sætte teksten i centrum her-->
-        <div class="container" style="text-align: center">
-          <div class="clearfix"></div>
-          <!-- <template> -->
-          <div class="box-2">
-            <img src="placeholder_img/331015678_955384149209605_1497031471052124554_n.png" class="b-img-1" />
-            <h3 class="heading1">Hotel</h3>
-            <p class="blog-heading-1">DE LUXE ROOM</p>
-            <p class="text">2 Adults | 1 child below 7</p>
+  <body class="destinations">
+    <div class="frontbanner">
+      <header>
+        <div class="container3">
+          <div class="col-div-6">
+            <a class="logo" href="index.html"><img src="billeder/logo.png" alt="Logo" /></a>
           </div>
-          <!-- </template> -->
+
+          <div class="col-div-6">
+            <ul class="nav">
+              <li><a href="index.html">Forside</a></li>
+              <li><a href="destinations.html">Destinations</a></li>
+              <li><a href="singleview.html">Singleview</a></li>
+            </ul>
+          </div>
           <div class="clearfix"></div>
         </div>
+      </header>
+      <!--Inde i CSS kan i ændre "banner-section" til et billede med url img tagget-->
+
+      <section class="banner-section">
+        <div class="container">
+          <p class="welcome">Italy</p>
+          <h1 class="heroh1">Portofino</h1>
+        </div>
       </section>
-      <!-- TEMPLATE HERTIL -->
-    </section>
+    </div>
+    <!--TEMPLATE TIL DETALJER
+    <main>
+      <div id="grid1-1-view">
+        <template class="templateview">
+          <section class="grid-text-view">
+            <h1 class="h1view">DESTINATION</h1>
+            <h2 class="h2view">BY</h2>
+            <p class="bioview">Lortur maiores odit suscipit!</p>
+          
+          </section>
+          <section class="grid-img-view">
+            <img class="viewimg" src="https://source.unsplash.com/random/400x400?sig=1" alt="" />
+          </section>
+        </template>
+      </div>
+      <div class="line"></div>
+    </main>
+    TEMPLATE TIL DETALJER-->
     <footer class="grid1-1-1">
       <section class="footer-box">
         <h1>Footer</h1>
