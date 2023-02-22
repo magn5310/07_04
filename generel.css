@@ -89,6 +89,9 @@ li a {
   background-image: url(billeder/deststorbanner.webp);
   background-position: center 65%;
 }
+.singleflex {
+  display: flex;
+}
 
 .width {
   min-height: 100vh;
