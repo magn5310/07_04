@@ -158,6 +158,19 @@ li a {
   margin-bottom: 20px;
   color: var(--black);
 }
+.box-index {
+  width: 20rem;
+
+  margin: 25px;
+}
+.box-index:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 250ms ease-in-out;
+}
+.box-index .read-more {
+  width: 10rem;
+}
 .box-2 {
   width: 20rem;
 
@@ -230,6 +243,7 @@ li a {
 }
 
 .read-more {
+  text-decoration: none;
   margin: auto;
   display: block;
   background-color: white;
