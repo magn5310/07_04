@@ -78,3 +78,11 @@ header {
   font-size: 7rem;
   font-weight: 100;
 }
+
+@media (max-width: 1050px) {
+  .frontbanner {
+    box-shadow: inset 0 0 0 1000px var(--darksand-opa);
+    background-image: url(billeder/baggrundstor.webp);
+    background-position: center 65%;
+  }
+}
