@@ -21,6 +21,6 @@ function visFerie(ferie) {
   klon.querySelector(".b-img-1").src = "billeder/" + ferie.billede;
   klon.querySelector(".heading1").textContent = ferie.land;
   klon.querySelector(".by").textContent = ferie.by;
-
+  klon.querySelector(".read-more").href = "singleview.html?id=" + ferie._id;
   document.querySelector("#karusel").appendChild(klon);
 }
