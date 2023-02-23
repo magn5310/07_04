@@ -242,6 +242,11 @@ a {
 .grid-text h1 {
   color: var(--main);
 }
+.ourh2 {
+  margin-top: 5rem;
+  color: var(--text);
+  text-align: center;
+}
 @media screen and (min-width: 700px) {
   form {
     display: block;
