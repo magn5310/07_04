@@ -179,6 +179,10 @@ li a {
   margin-top: 5%;
 }
 
+.read-more:hover {
+  opacity: 50%;
+}
+
 h1,
 h2 {
   font-family: libre baskerville;
