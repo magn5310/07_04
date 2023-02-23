@@ -1,8 +1,8 @@
-const url = "https://tema7-7d73.restdb.io/rest/hidden-gems";
+const url = "https://passionsite-13f0.restdb.io/rest/hidden-gems";
 
 const options = {
   headers: {
-    "x-apikey": "63f68329478852088da68570",
+    "x-apikey": "63f773af478852088da68594",
   },
 };
 
