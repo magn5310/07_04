@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kontakt</title>
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="generel.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="frontbanner">
+      <header>
+        <div class="container3">
+          <div class="col-div-6">
+            <a class="logo" href="index.html"><img src="billeder/logo.png" alt="Logo" /></a>
+          </div>
+
+          <div class="col-div-6">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="destinations.html">Destinations</a></li>
+              <li><a href="kontakt.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </header>
+    </div>
+    <main class="contactgrid">
+      <h1 class="contacth1">Contact us!</h1>
+      <h3 class="contacth3">If you have any questions, feel free to ask them here:</h3>
+      <div id="formgrid">
+        <form id="nyhedsbrev" name="nyhedsbrev" netlify>
+          <div class="form-felt1">
+            <label for="fulde-navn">Full name</label>
+            <input type="text" id="fulde-navn" name="nyhedsbrev" placeholder="Thomas Moore" />
+          </div>
+          <div class="form-felt2">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="nyhedsbrev" placeholder="thomasmoore@gmail.com" />
+          </div>
+          <div class="form-felt3">
+            <label for="tlf">Phone number</label>
+            <input type="tel" id="tlf" name="nyhedsbrev" placeholder="+4512345678" />
+          </div>
+          <div class="form-felt4">
+            <textarea name="nyhedsbrev" id="textarea" cols="30" rows="10" placeholder="Your question here:"></textarea>
+          </div>
+          <div class="form-felt5">
+            <button id="nyhedsknap">Indsend</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
