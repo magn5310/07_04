@@ -19,7 +19,7 @@ body {
   background-color: var(--background);
 }
 img {
-  width: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
 .clearfix {
@@ -392,4 +392,21 @@ a {
   ul {
     margin-right: 0.5rem;
   }
+}
+
+.star {
+  max-width: 100%;
+  color: black;
+  font-size: 22px;
+  margin-top: 5%;
+}
+
+p.star {
+  place-self: center;
+  /* float: left; */
+}
+
+.star span {
+  font-size: 30px;
+  color: black;
 }
